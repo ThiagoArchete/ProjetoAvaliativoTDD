@@ -1,0 +1,333 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Criar `src/main/resources/schema.sql` com o DDL PostgreSQL para a tabela `tarefa`": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150568222
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150575037
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150631074
+      }
+    ],
+    "1.2 Atualizar `src/main/resources/application.properties` com a configuração de produção (PostgreSQL)": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150569636
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150577764
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150634228
+      }
+    ],
+    "1.3 Criar `src/test/resources/application-test.properties` com a configuração H2 em memória": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150569919
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150580413
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150637403
+      }
+    ],
+    "2.1 Criar `StatusTarefa.java` no pacote `com.fatec.todo.model`": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150570089
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150642378
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150744025
+      }
+    ],
+    "2.2 Criar `Tarefa.java` no pacote `com.fatec.todo.model`": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150570238
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150646369
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150746835
+      }
+    ],
+    "3.1 Criar `RegraNegocioException.java` no pacote `com.fatec.todo.exception`": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150570413
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150750038
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150797800
+      }
+    ],
+    "3.2 Criar `TarefaRepository.java` no pacote `com.fatec.todo.repository`": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150570542
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150752718
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150800842
+      }
+    ],
+    "4.1 Criar `TarefaService.java` no pacote `com.fatec.todo.service`": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150570703
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150804593
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151144564
+      }
+    ],
+    "4.2 Criar `TarefaServiceImpl.java` no pacote `com.fatec.todo.service.impl`": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150570968
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151147422
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151198548
+      }
+    ],
+    "5. Checkpoint — verificar compilação do projeto": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150571110
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151207838
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151255869
+      }
+    ],
+    "6.1 Criar `TarefaController.java` no pacote `com.fatec.todo.controller`": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150571227
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151258965
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151328291
+      }
+    ],
+    "7.1 Adicionar `net.jqwik:jqwik:1.9.3` com `scope=test` em `pom.xml`": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150571413
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151261799
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151331755
+      }
+    ],
+    "8.1 Criar `TarefaRepositoryTest.java` em `src/test/java/com/fatec/todo/`": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150571581
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151334982
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151478783
+      }
+    ],
+    "9. Checkpoint — rodar testes de repositório": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150571710
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151488035
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151601326
+      }
+    ],
+    "10.1 Criar `TarefaServiceTest.java` em `src/test/java/com/fatec/todo/`": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150571841
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151604528
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151665303
+      }
+    ],
+    "11. Checkpoint final — rodar toda a suíte de testes": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150571960
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151674072
+      },
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791152111375
+      }
+    ],
+    "1. Configurar ambientes e DDL": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150638008
+      }
+    ],
+    "2. Implementar o modelo de domínio": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150747001
+      }
+    ],
+    "3. Implementar a camada de exceção e persistência": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791150801199
+      }
+    ],
+    "4. Implementar a interface e a implementação de serviço": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151198717
+      }
+    ],
+    "6. Implementar o controller REST": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151328439
+      }
+    ],
+    "7. Adicionar dependência jqwik ao pom.xml": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151331929
+      }
+    ],
+    "8. Implementar testes de integração de repositório": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151478955
+      }
+    ],
+    "10. Implementar testes unitários de serviço": [
+      {
+        "executionId": "e97c302d-2926-4d8d-8f25-9a2068bdcff2",
+        "chatSessionId": "sess_81762bbf-ae34-4679-a134-16ccfda1f3cb",
+        "timestamp": 1791151665531
+      }
+    ]
+  }
+}
